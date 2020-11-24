@@ -5,7 +5,7 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		Callable task = () -> {
-			return 2;
+			return 7;
 		};
 
 		FutureTask<String> future = new FutureTask<>(task);
